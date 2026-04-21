@@ -1,0 +1,9 @@
+<svg width="320" height="88" viewBox="0 0 320 88" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Brooomin logo">
+  <rect width="320" height="88" rx="24" fill="#0F1A16"/>
+  <circle cx="46" cy="44" r="20" fill="#D4EDE6"/>
+  <path d="M36 44C36 38.4772 40.4772 34 46 34C51.5228 34 56 38.4772 56 44C56 49.5228 51.5228 54 46 54C40.4772 54 36 49.5228 36 44Z" fill="#1A6B55"/>
+  <path d="M63 44C63 31.8497 53.1503 22 41 22" stroke="#D4EDE6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M68 44C68 57.2548 57.2548 68 44 68" stroke="#F5C842" stroke-width="6" stroke-linecap="round"/>
+  <text x="84" y="43" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">Brooomin</text>
+  <text x="84" y="62" fill="#D4EDE6" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">HOTEL-LIKE CLEANING</text>
+</svg>
