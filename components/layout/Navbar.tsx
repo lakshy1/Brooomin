@@ -21,7 +21,7 @@ function getInitialTheme(): ThemeMode {
     return stored;
   }
 
-  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  return "light";
 }
 
 export function Navbar() {
@@ -57,26 +57,14 @@ export function Navbar() {
         <div className="section-shell">
           <div className="flex h-24 items-center justify-between gap-4">
             <Link href="/" className="navbar-brand" aria-label={`${SITE_NAME} home`}>
-              <span className="navbar-brand-mark">
-                <Image
-                  src="/Brooomin.webp"
-                  alt=""
-                  width={64}
-                  height={64}
-                  priority
-                  className="navbar-brand-mark-image"
-                />
-              </span>
-              <span className="navbar-brand-wordmark" aria-hidden="true">
-                <Image
-                  src="/Logo text.png"
-                  alt=""
-                  width={280}
-                  height={76}
-                  priority
-                  className="navbar-brand-wordmark-image"
-                />
-              </span>
+              <Image
+                src="/combine-logo.png"
+                alt=""
+                width={3674}
+                height={1152}
+                priority
+                className="navbar-brand-image"
+              />
               <span className="sr-only">Brooomin</span>
             </Link>
 
@@ -94,19 +82,13 @@ export function Navbar() {
               <button
                 type="button"
                 onClick={() => setTheme((current) => (current === "light" ? "dark" : "light"))}
-                className="theme-pill"
+                className="theme-switch"
                 aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
                 aria-pressed={theme === "dark"}
               >
-                <SunMedium className="theme-pill-icon theme-pill-sun" />
-                <Moon className="theme-pill-icon theme-pill-moon" />
-                <span className="theme-pill-thumb">
-                  {theme === "light" ? (
-                    <SunMedium className="theme-pill-active-icon text-[#e8c96e]" />
-                  ) : (
-                    <Moon className="theme-pill-active-icon text-primary" />
-                  )}
-                </span>
+                <SunMedium className="theme-switch-icon theme-switch-sun" />
+                <Moon className="theme-switch-icon theme-switch-moon" />
+                <span className="sr-only">{theme === "light" ? "Light mode" : "Dark mode"}</span>
               </button>
 
               <WhatsAppButton
@@ -120,19 +102,13 @@ export function Navbar() {
               <button
                 type="button"
                 onClick={() => setTheme((current) => (current === "light" ? "dark" : "light"))}
-                className="theme-pill"
+                className="theme-switch"
                 aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
                 aria-pressed={theme === "dark"}
               >
-                <SunMedium className="theme-pill-icon theme-pill-sun" />
-                <Moon className="theme-pill-icon theme-pill-moon" />
-                <span className="theme-pill-thumb">
-                  {theme === "light" ? (
-                    <SunMedium className="theme-pill-active-icon text-[#e8c96e]" />
-                  ) : (
-                    <Moon className="theme-pill-active-icon text-primary" />
-                  )}
-                </span>
+                <SunMedium className="theme-switch-icon theme-switch-sun" />
+                <Moon className="theme-switch-icon theme-switch-moon" />
+                <span className="sr-only">{theme === "light" ? "Light mode" : "Dark mode"}</span>
               </button>
 
               <button

@@ -5,9 +5,19 @@ import { AREAS } from "@/lib/areas-data";
 import { WHATSAPP_MESSAGES } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Cleaning Services in Viman Nagar, Koregaon Park & More - Pune | Brooomin",
+  title: "Cleaning Services in Viman Nagar, Kharadi & Koregaon Park - Pune",
   description:
-    "Brooomin offers professional home and office cleaning in Viman Nagar, Keshav Nagar, Koregaon Park, Kharadi, and Kalyani Nagar, Pune.",
+    "Brooomin provides professional home and office cleaning in Viman Nagar, Keshav Nagar, Koregaon Park, Kharadi, and Kalyani Nagar. Local SEO for Pune neighbourhood cleaning services.",
+  keywords: [
+    "cleaning services Viman Nagar",
+    "cleaning services Kharadi",
+    "cleaning services Koregaon Park",
+    "cleaning services Kalyani Nagar",
+    "cleaning services Keshav Nagar",
+    "Pune local cleaning services",
+    "neighbourhood cleaning Pune",
+    "apartment cleaning Viman Nagar",
+  ],
 };
 
 export default function AreasPage() {
@@ -47,7 +57,7 @@ export default function AreasPage() {
             </section>
           ))}
         </div>
-
+  ];
         <section className="rounded-3xl bg-primary-light p-8 text-center">
           <h2 className="font-display text-3xl font-semibold text-dark">
             Don&apos;t see your area?

@@ -7,9 +7,19 @@ import { ONE_TIME_PRICING } from "@/lib/pricing-data";
 import { buildWhatsAppUrl, WHATSAPP_MESSAGES } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Cleaning Packages & Pricing — Brooomin Pune",
+  title: "Cleaning Packages in Pune - Daily, Monthly & One-Time Cleaning",
   description:
-    "Affordable daily, monthly and one-time cleaning packages for homes in Pune. Starting from ₹499. No hidden charges.",
+    "Affordable daily, monthly, and one-time cleaning packages for Pune homes. Compare residential and commercial options with transparent pricing starting from Rs. 499.",
+  keywords: [
+    "cleaning packages Pune",
+    "pricing for cleaning services Pune",
+    "daily cleaning package Pune",
+    "monthly cleaning package Pune",
+    "one time cleaning Pune",
+    "affordable cleaning Pune",
+    "residential cleaning pricing Pune",
+    "commercial cleaning quote Pune",
+  ],
 };
 
 export default function PricingPage() {
@@ -54,7 +64,7 @@ export default function PricingPage() {
             </div>
           </div>
         </section>
-
+  ];
         <section className="mt-16 grid gap-6 rounded-3xl bg-primary-light p-8 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
             <h2 className="font-display text-3xl font-semibold text-dark">

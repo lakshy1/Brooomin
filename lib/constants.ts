@@ -1,7 +1,7 @@
 export const SITE_NAME = "Brooomin";
 export const SITE_TAGLINE = "Hotel-like cleaning services at your doorstep";
 export const SITE_URL = "https://brooomin.in";
-export const WHATSAPP_NUMBER = "919876543210";
+export const WHATSAPP_NUMBER = "917972339876";
 export const WHATSAPP_BASE_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const EMAIL = "hello@brooomin.in";
 export const INSTAGRAM_HANDLE = "@brooomin";

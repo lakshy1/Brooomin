@@ -8,12 +8,22 @@ import {
   INSTAGRAM_HANDLE,
   SERVICE_ZONES,
   WHATSAPP_BASE_URL,
+  WHATSAPP_NUMBER,
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact Brooomin — Book a Cleaning in Pune",
+  title: "Contact Brooomin - WhatsApp Cleaning Booking in Pune",
   description:
-    "Get in touch with Brooomin for home and office cleaning in Pune. WhatsApp us or fill the enquiry form.",
+    "Contact Brooomin on WhatsApp for home cleaning, deep cleaning, office cleaning, and custom quotes in Pune. Fast replies and simple booking.",
+  keywords: [
+    "contact cleaning service Pune",
+    "WhatsApp cleaning booking Pune",
+    "book cleaning on WhatsApp Pune",
+    "home cleaning inquiry Pune",
+    "office cleaning inquiry Pune",
+    "cleaning quote Pune",
+    "Brooomin contact Pune",
+  ],
 };
 
 export default function ContactPage() {
@@ -42,13 +52,13 @@ export default function ContactPage() {
                     rel="noreferrer"
                     className="mt-2 block text-sm font-medium text-primary"
                   >
-                    {WHATSAPP_BASE_URL.replace("https://wa.me/", "+")}
+                    {`+${WHATSAPP_NUMBER}`}
                   </a>
                   <p className="mt-2 text-sm text-neutral-700">Typical response: under 5 minutes</p>
                 </div>
               </div>
             </div>
-
+  ];
             <div className="card">
               <div className="flex items-start gap-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-light text-primary">
@@ -63,7 +73,7 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-
+  ];
             <div className="card">
               <div className="flex items-start gap-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-light text-primary">
@@ -85,7 +95,7 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-
+  ];
             <div className="card">
               <div className="flex items-start gap-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-light text-primary">
@@ -98,10 +108,11 @@ export default function ContactPage() {
               </div>
             </div>
           </aside>
-
+  ];
           <ContactForm />
         </div>
       </div>
     </div>
   );
 }
+

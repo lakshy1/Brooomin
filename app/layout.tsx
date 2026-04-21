@@ -24,19 +24,30 @@ export const metadata: Metadata = {
     template: "%s | Brooomin",
   },
   description:
-    "Professional home & office cleaning in Viman Nagar, Koregaon Park, Kharadi, Keshav Nagar & Kalyani Nagar. Affordable daily and monthly packages.",
+    "Brooomin offers premium, affordable, eco-friendly home and office cleaning in Pune. Book cleaning services in Viman Nagar, Keshav Nagar, Koregaon Park, Kharadi and Kalyani Nagar.",
+  alternates: {
+    canonical: SITE_URL,
+  },
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: SITE_URL,
     siteName: SITE_NAME,
+    title: "Brooomin - Hotel-Like Cleaning Services in Pune",
+    description:
+      "Premium, affordable, eco-friendly home and office cleaning in Pune. Available across Viman Nagar, Keshav Nagar, Koregaon Park, Kharadi and Kalyani Nagar.",
     images: [{ url: "/images/og-image.svg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
+    title: "Brooomin - Hotel-Like Cleaning Services in Pune",
+    description:
+      "Premium, affordable, eco-friendly home and office cleaning in Pune. Book on WhatsApp.",
   },
   keywords: [
     "home cleaning Pune",
+    "cleaning services Pune",
+    "book cleaning on WhatsApp",
     "cleaning services Viman Nagar",
     "deep cleaning Koregaon Park",
     "office cleaning Kharadi",
@@ -44,7 +55,24 @@ export const metadata: Metadata = {
     "maid service Pune",
     "eco-friendly cleaning Pune",
     "cleaning services Kalyani Nagar",
+    "home deep cleaning Pune",
+    "commercial cleaning Pune",
+    "move in move out cleaning Pune",
+    "apartment cleaning Pune",
+    "residential cleaning Pune",
+    "trusted cleaning service Pune",
   ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({

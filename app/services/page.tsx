@@ -6,11 +6,20 @@ import { SectionHeading } from "@/components/shared/SectionHeading";
 import { ServiceFilters } from "@/components/services/ServiceFilters";
 
 export const metadata: Metadata = {
-  title: "Our Cleaning Services — Brooomin Pune",
+  title: "Cleaning Services in Pune - Home, Office & Deep Cleaning",
   description:
-    "Explore Brooomin's home cleaning, deep cleaning, office cleaning and move-in/out services in Pune. Trained staff, eco-products.",
+    "Explore Brooomin's residential, commercial, and specialized cleaning services in Pune. Ideal for home cleaning, deep cleaning, office cleaning, and move-in or move-out cleaning.",
+  keywords: [
+    "cleaning services Pune",
+    "home cleaning Pune",
+    "deep cleaning Pune",
+    "office cleaning Pune",
+    "move in move out cleaning Pune",
+    "commercial cleaning Pune",
+    "eco friendly cleaning Pune",
+    "apartment cleaning Pune",
+  ],
 };
-
 export default function ServicesPage() {
   return (
     <div className="section-pad">
@@ -38,7 +47,7 @@ export default function ServicesPage() {
                 </Link>
               </div>
             </div>
-
+  ];
             <div className="p-8 lg:p-12">
               <div className="rounded-[2rem] bg-white/10 p-6 backdrop-blur">
                 <Sparkles className="h-10 w-10 text-accent" />
@@ -51,7 +60,7 @@ export default function ServicesPage() {
             </div>
           </div>
         </section>
-
+  ];
         <section className="mt-14">
           <SectionHeading
             tag="Browse"
